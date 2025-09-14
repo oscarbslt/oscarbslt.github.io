@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Oscar Bosselut - Réseaux Trophiques</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="frameworks/jquery-3.7.1.min.js" defer></script>
+    <script src="scripts/index.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" type="image/png" href="">
+</head>
+
+<body class="bg-gray-50 text-gray-800 antialiased flex flex-col min-h-screen">
+
+<!-- Header -->
+<header class="bg-teal-700 text-white p-4 shadow-md">
+    <h1 id="title" class="text-center text-2xl font-bold tracking-wide">Analyse de réseaux trophiques</h1>
+</header>
+
+<!-- Image de présentation -->
+<section class="p-4">
+    <div class="rounded-xl overflow-hidden shadow-md">
+        <img src="images/image_presentation_reseauxTrophiques.png"
+             alt="Présentation du projet réseaux trophiques"
+             class="w-full object-cover">
+    </div>
+</section>
+
+<!-- Description -->
+<main class="flex-1 p-4 space-y-6">
+
+    <article class="bg-white rounded-xl shadow p-4 leading-relaxed">
+        <h2 class="text-lg font-semibold text-teal-700 mb-2">Mise en contexte</h2>
+        <p>
+            Il s'agit de notre projet final de théorie des graphes. Le but de celui-ci était de nous faire appliquer les algorithmes vus en cours
+            en les appliquant au domaine des réseaux trophiques, afin de les analyser. Le logiciel est dans la console, l'affichage n'était pas demandé.
+        </p>
+    </article>
+
+    <article class="bg-white rounded-xl shadow p-4 leading-relaxed">
+        <h2 class="text-lg font-semibold text-teal-700 mb-2">Développement du logiciel</h2>
+        <p>
+            Le logiciel prend en entrée un fichier texte contenant les information d'une chaîne alimentaire, puis il "programme", ou plus simplement convertit, le réseau automatiquement sur un fichier .dot,
+            permettant l'affichage de graphes. Le fichier .dot est ensuite converti en image pour que l'utilisateur puisse voir le réseau. <br>
+            Le logciel met à dispositition plusieurs outils pour analyser le réseau, notamment une simulation, fonctionnant par générations, où l'utilisateur peut
+            modifier à tout moment la population de chaque éspèce, la capacité K ou encore le taux de croissance R et afficher un graphique de l'évolution de la population de chaque éspèce.
+        </p>
+    </article>
+
+    <article class="bg-white rounded-xl shadow p-4 leading-relaxed">
+        <h2 class="text-lg font-semibold text-teal-700 mb-2">Détails techniques</h2>
+        <p>
+            Langage C, utilisation du format de fichiers .dot permettant de représenter des graphes, ainsi que de gnuplot, qui nous a permis de créer des graphiques représentant l'évolution des éspèces.
+            Algorithmes: Djikstra, A*, BFS, DFS.
+        </p>
+    </article>
+
+    <article class="bg-white rounded-xl shadow leading-relaxed p-2">
+        <h2 class="text-lg font-semibold text-teal-700 mb-2">Images</h2>
+        <img src="images/reseaux0.png" class="mb-5">
+        <img src="images/reseaux1.png" class="mb-5">
+        <img src="images/reseaux2.png" class="mb-5">
+        <img src="images/reseaux3.png" class="mb-2">
+        <img src="images/reseaux4.png" class="mb-2">
+
+    </article>
+</main>
+
+
+<footer class="bg-teal-700 text-white text-center py-3 mt-6 text-sm">
+    © 2025 Oscar Bosselut — Tous droits réservés
+</footer>
+
+</body>
+</html>

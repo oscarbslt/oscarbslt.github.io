@@ -1,0 +1,23 @@
+$(document).ready(function(){
+    $("#projet0_button").click(function(){
+        $("#deroule0").slideToggle("fast");
+        $("#projet0").toggleClass("bg-teal-700")
+        $("#projet0").toggleClass("hover:bg-white")
+        $("#projet0").toggleClass("hover:text-black")
+        $("#projet0").toggleClass("border-2")
+        $("#projet0").toggleClass("border-teal-700")
+        $("#projet0").toggleClass("text-white")
+    });
+});
+
+$(document).ready(function(){
+    $("#projet1_button").click(function(){
+        $("#deroule1").slideToggle("fast");
+        $("#projet1").toggleClass("bg-teal-700")
+        $("#projet1").toggleClass("hover:bg-white")
+        $("#projet1").toggleClass("hover:text-black")
+        $("#projet1").toggleClass("border-2")
+        $("#projet1").toggleClass("border-teal-700")
+        $("#projet1").toggleClass("text-white")
+    });
+});

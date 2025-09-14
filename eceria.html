@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Oscar Bosselut - Eceria</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="frameworks/jquery-3.7.1.min.js" defer></script>
+    <script src="scripts/index.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" type="image/png" href="">
+</head>
+
+<body class="bg-gray-50 text-gray-800 antialiased flex flex-col min-h-screen">
+
+<!-- Header -->
+<header class="bg-teal-700 text-white p-4 shadow-md">
+    <h1 id="title" class="text-center text-2xl font-bold tracking-wide">Eceria</h1>
+</header>
+
+<!-- Image de présentation -->
+<section class="p-4">
+    <div class="rounded-xl overflow-hidden shadow-md">
+        <img src="images/image_presentation_eceria.png"
+             alt="Présentation du projet Eceria"
+             class="w-full object-cover">
+    </div>
+</section>
+
+<!-- Description -->
+<main class="flex-1 p-4 space-y-6">
+
+    <article class="bg-white rounded-xl shadow p-4 leading-relaxed">
+        <h2 class="text-lg font-semibold text-teal-700 mb-2">Mise en contexte</h2>
+        <p>
+            Ce projet à eu lieu lors de mon stage de deuxième année à l'ECE Lyon, au sein de l'association d'informatique de l'école. L'objectif du projet
+            était de concevoir un cahier des charges pour le futur projet des étudiants en première année, ainsi que de programmer une démonstration du jeu.
+        </p>
+    </article>
+
+    <article class="bg-white rounded-xl shadow p-4 leading-relaxed">
+        <h2 class="text-lg font-semibold text-teal-700 mb-2">Conception du cahier des charges</h2>
+        <p>
+            Monsieur Hintzy, mon maître de stage et enseignant en informatique, nous a donné
+            différentes compétences techniques qu'il attendait pour ce projet. En nous basant sur
+            ces compétences, nous avons conçu le cahier des charges du projet.
+        </p>
+    </article>
+
+    <article class="bg-white rounded-xl shadow p-4 leading-relaxed">
+        <h2 class="text-lg font-semibold text-teal-700 mb-2">Développement du jeu</h2>
+        <p>
+            Il nous a ensuite été demandé de programmer la version la plus aboutie possible du jeu dans le temps qu'il nous était donné: une semaine environ.<br><br>
+
+            Nous étions trois sur le projet, je me suis pour ma part principalement occupé de la gestion de l'inventaire du joueur, de
+            l'interface utilisateur, des intéractions avec l'environnement:
+            le joueur peut couper du bois, faucher/planter du blé, pêcher, avec un cycle jour/nuit permettant aux différents éléments du jeu de réapparaître
+            au bout d'un certain nombre de jours pour chacun. J'ai aussi implémenté un système de monnaie et de Personnages Non Joueurs: avec animations, dialogues,
+            possibilité de leur acheter/vendre/échanger des objets. J'ai également créé un système de coffres, permettant au joueur de stocker ses objets.
+            <br><br>
+            Les assets utilisés pour le jeu sont libres de droits et ont pricipalement été trouvés sur internet.
+        </p>
+    </article>
+
+    <article class="bg-white rounded-xl shadow p-4 leading-relaxed">
+        <h2 class="text-lg font-semibold text-teal-700 mb-2">Détails techniques</h2>
+        <p>
+            Développement en C avec Allegro 5
+        </p>
+    </article>
+
+    <article class="bg-white rounded-xl shadow leading-relaxed p-2">
+        <h2 class="text-lg font-semibold text-teal-700 mb-2">Images</h2>
+        <img src="images/eceria0.png" class="mb-2">
+        <img src="images/eceria1.png" class="mb-2">
+        <img src="images/eceria2.png" class="mb-2">
+        <img src="images/eceria3.png" class="mb-2">
+    </article>
+</main>
+
+
+<footer class="bg-teal-700 text-white text-center py-3 mt-6 text-sm">
+    © 2025 Oscar Bosselut — Tous droits réservés
+</footer>
+
+</body>
+</html>
